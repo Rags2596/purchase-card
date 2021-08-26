@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display&display=swap');
+
+body{
+    background-image: url(/images/pattern-background-desktop.svg);
+    background-size: 100vw 50vh ;
+    background-repeat: no-repeat !important;
+    width: 100%;
+
+}
+#bootstrap-override{
+    background-color: hsl(225, 100%, 94%);
+}
+.flexbox-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card{
+    height: 80vh;
+    width: 430px;
+    border-radius: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+}
+.flex-item{
+    background-color: white;
+    min-height: 150px;
+    width: 430px;
+}
+.img{
+    /* color: red; */
+    background-image: url("/images/illustration-hero.svg");
+    height: 220px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
+.title, .summary{
+    font-family: 'Red Hat Display';
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+    color: rgb(58, 58, 58);
+}
+.summary{
+    margin-top: 10px;
+    font-size: 16px;
+}
+.title{
+    margin-top: 30px;
+    font-weight:bold;
+    font-size: 36px;
+    color: hsl(223, 47%, 23%)
+}
+.price{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 75px;
+    border-radius: 10px;
+    background-color: hsl(225, 100%, 98%);
+}
+.inner-text, .change{
+    font-family: 'Red Hat Display';
+}
+.music-icon{
+    min-width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.item-1{
+    font-weight: bold;
+    color: hsl(223, 47%, 23%) ;
+}
+.item-2{
+    color: grey;
+}
+.payment{
+    background-color: hsl(245, 75%, 52%);
+    width: 350px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Red Hat Display';
+    border-radius: 10px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5);
+    margin-top: 40px;
+}
+.payment a{
+    text-decoration: none;
+    color: white;
+}
+.cancel{
+    font-family: 'Red Hat Display';
+    font-weight: bold;
+    color: darkgray;
+    margin-top: 20px;
+}
+.cancel a{
+    color: darkgray;
+    text-decoration: none;
+}
